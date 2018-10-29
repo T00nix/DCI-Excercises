@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.outer {
+    margin: 1em
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 100%;
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+#forkme_banner {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 0.1em;
+}
+
+#project_title, #project_tagline {
+    display: flex;
+    justify-content: center;
+    padding: 1em 1em 1em 1em;
+}
+
+.header_custom {
+    background-image: linear-gradient(hsla(215,30%,70%,0.9) 0%, hsla(215,30%,70%,0) 50%, hsla(215,30%,70%,0.9) 100%), 
+    linear-gradient(to right, hsla(215,30%,80%,0.8) 30%, white 50%, hsla(215,30%,80%,0.8) 70%);
+border-radius: 1.5em
+}
+
+#downloads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#main_content_wrap{
+    background-image: linear-gradient() 
+}
+
+#footer_wrap {
+    display: flex;
+    justify-content: center;
+    
+    background-image: linear-gradient(hsla(215,30%,70%,0.9) 0%, hsla(215,30%,70%,0) 50%, hsla(215,30%,70%,0.9) 100%), 
+    linear-gradient(to right, hsla(215,30%,80%,0.8) 30%, white 50%, hsla(215,30%,80%,0.8) 70%);
+    border-radius: 1.5em;
+}
