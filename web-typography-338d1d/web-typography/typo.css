@@ -3,14 +3,37 @@
   src: url('Roboto-Light-webfont.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Roboto Light Italic';
+  src: url('Roboto-LightItalic-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url('Roboto-Bold-webfont.woff') format('woff');
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* works only in Firefox,  removes the styles
+em, strong {
+  font-synthesis: none;
+} */
+
+em {
+  font-family: 'Roboto Light Italic'
+}
+
+strong {
+  font-family: 'Roboto Bold'
+}
+
 body {
-  font-family: 'Roboto', sans-serif;   /* Add 'Roboto' here */
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 1.8em;
   color: #5D6063;
