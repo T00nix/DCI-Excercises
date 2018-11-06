@@ -26,11 +26,18 @@
     display: block;
   }
 
-  /* moves an element away from it's static position but everything else things its still on the original location */
+  /* relative: moves an element away from it's static position but everything else things its still on the original location */
   .item-relative {
-      position: relative;
-      top: -30px;
-      right: 30px;
+    position: relative;
+    top: -30px;
+    right: 30px;
   }
 
-  
+  /* absolute: the element leaves the flow and orientates at the whole browser window */
+  .item-absolute {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+
