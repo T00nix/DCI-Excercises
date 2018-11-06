@@ -45,3 +45,10 @@ The [.absolute div] is laid out with the normal flow of the page, and we can man
 .absolute {
     position: relative;
 }
+
+/* fixed: it's a lot like absolute but one of the key-features is, that it doesn't scroll with the rest of the page */
+.item-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
