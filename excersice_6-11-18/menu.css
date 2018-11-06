@@ -49,6 +49,10 @@
     background: #B2D6FF;
     border-radius: 5px;
     padding-top: 60px;
+    
+    position: absolute;
+    top: -25px;
+    left: -30px;
 }
 
 .features-menu li {
@@ -60,4 +64,8 @@
 
 .features-menu li:last-of-type {
     border-bottom: none;
+}
+
+.dropdown {
+    position: relative;
 }
