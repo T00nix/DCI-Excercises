@@ -50,6 +50,10 @@
 }
 
 .features-menu {
+    display: none;
+}
+
+.dropdown:hover .features-menu {
     display: flex;
     flex-direction: column;
     background: #B2D6FF;
