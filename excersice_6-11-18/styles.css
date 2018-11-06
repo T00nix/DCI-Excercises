@@ -25,3 +25,12 @@
   .item img {
     display: block;
   }
+
+  /* moves an element away from it's static position but everything else things its still on the original location */
+  .item-relative {
+      position: relative;
+      top: -30px;
+      right: 30px;
+  }
+
+  
