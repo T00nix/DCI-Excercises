@@ -53,31 +53,32 @@ header:after {
 
 .top-article {
     padding: 0 0 5% 15%;
-    width: 60%
+    width: 100%
 }
 
 .headline {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 500;
     margin-bottom: 3%;
+}
+
+.slogan {
+    font-size: 30px;
 }
 
 .video {
     text-decoration: none;
     background-color: black;
     color: #FFF;
-    font-size: 12px;
+    font-size: 20px;
     padding: 4px;
-    float: right
+    position: relative;
+    left: 50%
 }
 
 .image-line article{
 display: inline-block;
 margin-left: 17.5px;
-}
-
-.image-line {
-    text-align: center;
 }
 
 .image-line article:first-of-type {
@@ -86,16 +87,16 @@ margin-left: 17.5px;
 
 .left-pic {
 background-image: url(./images/white-box.jpg);
-background-position-x: -250px
+background-position: center;
 }
 
 .middle-pic {
-background-image: url(./images/room.jpg)
+background-image: url(./images/room.jpg);
 }
 
 .right-pic {
 background-image: url(./images/black-white.jpg);
-background-position-x: -50px
+background-position: center;
 }
 
 .left-pic, .middle-pic, .right-pic {
