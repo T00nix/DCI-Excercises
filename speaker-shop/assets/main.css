@@ -47,7 +47,7 @@ header {
 
 }
 
-header::after {
+header:after {
     clear: both;
 }
 
@@ -70,6 +70,54 @@ header::after {
     padding: 4px;
     float: right
 }
+
+.image-line article{
+display: inline-block;
+margin-left: 17.5px;
+}
+
+.image-line {
+    text-align: center;
+}
+
+.image-line article:first-of-type {
+    margin: 0;
+}
+
+.left-pic {
+background-image: url(./images/white-box.jpg);
+background-position-x: -250px
+}
+
+.middle-pic {
+background-image: url(./images/room.jpg)
+}
+
+.right-pic {
+background-image: url(./images/black-white.jpg);
+background-position-x: -50px
+}
+
+.left-pic, .middle-pic, .right-pic {
+    background-size: cover;
+    width: 440px;
+    height: 500px;
+    
+}
+
+.arrow-image-line {
+    position: relative;
+}
+
+.add-img {
+    position: absolute;
+    top: 420px;
+    left: -80px;
+    background-color: #FFF;
+    border-radius: 100px;
+}
+
+
 
 footer {
     text-align: center;
