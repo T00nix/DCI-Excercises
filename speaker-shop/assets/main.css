@@ -16,18 +16,12 @@ main  {
 }
 
 header {
-    padding: 2rem 3rem;
+    padding: 5% 5% 15% 5%;
     position: relative;
 }
 
-header h1 img{
-    margin: 0 2.5rem 0 0
-}
-
 .menu {
-    position: absolute;
-    left: 60%;
-    top: 40%;
+    float: right
 }
 
 .menu li {
@@ -43,5 +37,31 @@ header h1 img{
 }
 
 .shop-name {
+    float: left;
     font-weight: 400;
+    font-size: 25px;
 }
+
+.shop-name img {
+    margin: 0 2.5rem 0 0
+
+}
+.top-article {
+    padding: 0 0 5% 10%;
+}
+
+.headline {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.video {
+    text-decoration: none;
+    background-color: black;
+    color: #FFF;
+    font-size: 12px;
+    padding: 4px;
+    position: relative;
+    left: 50%
+}
+
