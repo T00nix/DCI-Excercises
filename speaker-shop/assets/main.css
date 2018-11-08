@@ -16,7 +16,7 @@ main  {
 }
 
 header {
-    padding: 5% 5% 15% 5%;
+    padding: 5% 10% 15% 10%;
     position: relative;
 }
 
@@ -43,16 +43,23 @@ header {
 }
 
 .shop-name img {
-    margin: 0 2.5rem 0 0
+    margin: 0 2rem 0 0
 
 }
+
+header::after {
+    clear: both;
+}
+
 .top-article {
-    padding: 0 0 5% 10%;
+    padding: 0 0 5% 15%;
+    width: 60%
 }
 
 .headline {
     font-size: 30px;
     font-weight: 500;
+    margin-bottom: 3%;
 }
 
 .video {
@@ -61,7 +68,10 @@ header {
     color: #FFF;
     font-size: 12px;
     padding: 4px;
-    position: relative;
-    left: 50%
+    float: right
 }
 
+footer {
+    text-align: center;
+    padding: 1%
+}
