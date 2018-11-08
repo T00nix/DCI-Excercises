@@ -102,22 +102,33 @@ background-position-x: -50px
     background-size: cover;
     width: 440px;
     height: 500px;
-    
+    padding: 70px;
+    text-align: left;
 }
 
 .arrow-image-line {
     position: relative;
+    text-decoration: none;
+}
+
+.pic-text {
+    color: #FFF;
+    -webkit-text-shadow: 0px 0px 12px rgba(0,0,0,0.75);
+-moz-text-shadow: 0px 0px 12px rgba(0,0,0,0.75);
+text-shadow: 0px 0px 12px rgba(0,0,0,0.75);
+    font-size: 40px;
 }
 
 .add-img {
     position: absolute;
-    top: 420px;
-    left: -80px;
+    top: 330px;
+    left: 0;
     background-color: #FFF;
     border-radius: 100px;
+    -webkit-box-shadow: 0px 0px 0px px rgba(255,255,255,0.5);
+-moz-box-shadow: 0px 0px 0px px rgba(255,255,255,0.5);
+box-shadow: 0px 0px 0px px rgba(255,255,255,0.5);
 }
-
-
 
 footer {
     text-align: center;
