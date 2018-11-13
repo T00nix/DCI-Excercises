@@ -10,6 +10,7 @@
   }
   .blue {
     background: steelblue;
+    width: 40vw;
   }
   .container > div {
     font-size: 5vw;
