@@ -1,0 +1,18 @@
+.container { 
+    display: flex;
+    }
+  .red {
+    background: orangered;
+    flex-grow: 1;
+  }
+  .green {
+    background: yellowgreen;
+  }
+  .blue {
+    background: steelblue;
+  }
+  .container > div {
+    font-size: 5vw;
+    padding: .5em;
+    color: white;
+  }
