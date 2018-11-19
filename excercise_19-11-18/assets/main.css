@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-txt {
+    width: 70vw;
+    position: relative;
+    left: 15vw;
+    top: 150px;
+}
+
+p {
+    margin-bottom: 20px
+}
+
