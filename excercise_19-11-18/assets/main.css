@@ -4,6 +4,46 @@
     box-sizing: border-box;
 }
 
+:root {
+   --text-background: red;
+   --head-background: #FFF;
+}
+
+header {
+    margin: 0 15vw;
+    width: 70vw;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 3vw;
+    z-index: 2;
+    background-color: var(--head-background)
+}
+
+main {
+    display: flex;
+    z-index: 1;
+}
+
+.header-left a,
+.header-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-left·{
+    font-size: 10rem
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    background-image: url(./Maeve.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
 .main-txt {
     width: 70vw;
     position: relative;
@@ -12,6 +52,10 @@
 }
 
 p {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    background-color: var(--text-background)
 }
 
+h3, h2{
+    background-color: var(--head-background)
+}
