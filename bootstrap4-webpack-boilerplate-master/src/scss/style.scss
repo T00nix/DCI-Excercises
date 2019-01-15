@@ -1,0 +1,23 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+section {
+    margin-bottom: 2rem;
+}
+
+.gallery-img-size {
+    width: 200px;
+    height: 180px;
+    margin-bottom: 1rem;
+}
+
+
+.gallery-img-size:nth-of-type(5),
+.gallery-img-size:nth-of-type(6),
+.gallery-img-size:nth-of-type(7),
+.gallery-img-size:nth-of-type(8) {
+    margin-bottom: 0;
+}
+
+.dropup-btn-style {
+    border: 1px solid #6c757d
+}
