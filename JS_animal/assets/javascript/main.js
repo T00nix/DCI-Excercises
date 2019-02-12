@@ -20,18 +20,36 @@ class Animal {
     }
 
     sayHi(){
-        console.log(`Hi I'm ${this.name}.`)
+        console.log(`Hi, I'm ${this.name}.`)
     }
 
     speak(){
         console.log(`${this.name} makes a sound`)
+    }
+
+    eat(){
+        console.log(`${this.name} likes tasty food`)
+    }
+}
+
+class Dog extends Animal{
+    constructor(name){
+      super(name)
+    }  
+    speak(){
+        console.log(`${this.name} barks`)
+    }
+    eat(){
+        console.log(`${this.name} likes meat`)
     }
 }
 
 const felix = new Animal("Felix");
 felix.sayHi();
 felix.speak();
+felix.eat();
 
-const snoop = new Animal("Snoop");
+const snoop = new Dog("Snoop");
 snoop.sayHi();
 snoop.speak();
+snoop.eat();
